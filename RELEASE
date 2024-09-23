@@ -1,0 +1,5 @@
+PRODUCT = Znuny
+VERSION = 6.5.10
+BUILDDATE = Wed Jul 24 11:49:43 CEST 2024
+BUILDHOST = ci-runner-01.znuny.com
+COMMIT_ID = 70af0c20d4eba52be15600fbae6b3990cbef0d5e

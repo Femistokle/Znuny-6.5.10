@@ -1,0 +1,12 @@
+DBI connect('database=otrs;host=127.0.0.1;','otrs',...) failed: Access denied for user 'otrs'@'localhost' (using password: YES) at /opt/znuny-6.5.10/Kernel/System/DB.pm line 209.
+ERROR: OTRS-otrs.Daemon.pl - Daemon Kernel::System::Daemon::DaemonModules::SystemConfigurationSyncManager-47 Perl: 5.34.0 OS: linux Time: Mon Sep 23 06:44:08 2024
+
+ Message: Access denied for user 'otrs'@'localhost' (using password: YES)
+
+ Traceback (63174): 
+   Module: Kernel::System::DB::Ping Line: 1810
+   Module: Kernel::System::Daemon::DaemonModules::SystemConfigurationSyncManager::PreRun Line: 94
+   Module: (eval) Line: 332
+   Module: main::Start Line: 332
+   Module: /opt/otrs/bin/otrs.Daemon.pl Line: 153
+
